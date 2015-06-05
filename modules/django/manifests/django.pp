@@ -8,5 +8,6 @@ class django::django {
 		cwd => "/home/ec2-user",
 		user => "ec2-user",
 	}
+
 }
 
