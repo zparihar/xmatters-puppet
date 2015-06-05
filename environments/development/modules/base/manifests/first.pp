@@ -1,7 +1,7 @@
 class base::first {
 
 $str = 
-"Hello world again zubin and once more and
+"Hello world again zubin and once more and DEVELOPMENT
 "
 
          file { "/root/first-pup":
