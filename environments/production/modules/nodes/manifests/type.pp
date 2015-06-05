@@ -4,6 +4,7 @@ class nodes::type{
      		"awswebserver" : {
        			include base
        			include django
+       			include django-webapp
      		}
    	}
 
@@ -11,6 +12,7 @@ class nodes::type{
       		"awsproxyserver" : {
        			include base
        			include django
+       			include django-proxyapp
      		}
    	}
 
