@@ -4,5 +4,6 @@ class base {
         include base::default-directories
         include base::mount-partition
 #	include base::mountpartition
+	include base::cron-puppet
 
 }
