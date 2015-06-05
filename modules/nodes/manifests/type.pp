@@ -1,12 +1,16 @@
 class nodes::type{
+
 	case $role {
-     		"web_server" : {
+     		"awswebserver" : {
        			include base
      		}
    	}
+
 	case $role {
-      		"java_server" : {
+      		"awsproxyserver" : {
        			include base
      		}
    	}
+
 }
+
