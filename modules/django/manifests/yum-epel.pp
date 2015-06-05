@@ -1,4 +1,4 @@
-class django::epel {
+class django::yum-epel {
 
 	yumrepo { "epel": 
 		descr => "Extra Packages for Enterprise Linux \$releasever - \$basearch", 

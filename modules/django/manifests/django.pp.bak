@@ -1,0 +1,12 @@
+class django::django ($user = ec2-user) {
+
+	require packages
+
+	exec {"/usr/bin/django-admin startproject www":
+		require => Package['python-django'],
+		creates => "/home/$user/www/www",
+		cwd => "/home/$user",
+		user => $user,
+	}
+}
+
